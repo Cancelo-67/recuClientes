@@ -1,10 +1,17 @@
-let num = prompt('Dime un numero y te digo su factorial')
+let num = prompt('Dime un numero y te digo su factorial') //Le pido un numero al usuario
+
 let numero = 1
 
+//Recorro el numero restandole hasta que llegue al numero 0
 for (let i = num;i>0;i--) {
+    //Multiplico el numero i por el resultado
     numero *= i
 }
+
 alert(numero)
+
+
+//He usado Visual Studio Code
 
 
 
